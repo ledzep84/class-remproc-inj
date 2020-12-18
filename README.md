@@ -1,2 +1,3 @@
-# class-remproc-inj
-Classical method to insert a code into remote process memory
+- Find the target process, open target process, allocate memory, write code to memory, run the code
+- Need to input the payload inside the code and the target process name
+- Tested in Win10 x64
